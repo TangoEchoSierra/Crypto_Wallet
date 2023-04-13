@@ -1,4 +1,4 @@
- # Cryptocurrency Wallet
+# Cryptocurrency Wallet
 ################################################################################
 
 # This file contains the Ethereum transaction functions that you have created throughout this module’s lessons.
@@ -11,7 +11,7 @@ import os
 import requests
 from dotenv import load_dotenv
 
-load_dotenv("mnemonic.env")
+load_dotenv()
 from bip44 import Wallet
 from web3 import Account
 from web3 import middleware
